@@ -1,0 +1,192 @@
+INTEGER OVERFLOW
+0x00007f49cd161744 "shl    bl, cl"
+=>BACKTRACE
+#0   0x00007f49cd161744 in sig_shift_8 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:30]
+#1   0x00007f49cd16177e in case8 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:42]
+#2   0x00007f49cd161bdf in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:156]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd1616ea "add    al, bl"
+=>BACKTRACE
+#0   0x00007f49cd1616ea in sig_add_8 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:8]
+#1   0x00007f49cd1617a5 in case8 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:45]
+#2   0x00007f49cd161bdf in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:156]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd1616ea "add    al, bl"
+=>BACKTRACE
+#0   0x00007f49cd1616ea in sig_add_8 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:8]
+#1   0x00007f49cd1617c3 in case8 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:46]
+#2   0x00007f49cd161bdf in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:156]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd161716 "sub    al, bl"
+=>BACKTRACE
+#0   0x00007f49cd161716 in sig_sub_8 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:19]
+#1   0x00007f49cd1617d7 in case8 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:47]
+#2   0x00007f49cd161bdf in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:156]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd1618ae "shl    bx, cl"
+=>BACKTRACE
+#0   0x00007f49cd1618ae in sig_shift_16 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:76]
+#1   0x00007f49cd1618ef in case16 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:88]
+#2   0x00007f49cd161bf8 in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:158]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd16184a "add    ax, bx"
+=>BACKTRACE
+#0   0x00007f49cd16184a in sig_add_16 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:54]
+#1   0x00007f49cd161919 in case16 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:91]
+#2   0x00007f49cd161bf8 in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:158]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd16184a "add    ax, bx"
+=>BACKTRACE
+#0   0x00007f49cd16184a in sig_add_16 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:54]
+#1   0x00007f49cd161936 in case16 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:92]
+#2   0x00007f49cd161bf8 in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:158]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd16187b "sub    ax, bx"
+=>BACKTRACE
+#0   0x00007f49cd16187b in sig_sub_16 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:65]
+#1   0x00007f49cd16194b in case16 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:93]
+#2   0x00007f49cd161bf8 in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:158]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd1619d4 "shl    edx, cl"
+=>BACKTRACE
+#0   0x00007f49cd1619d4 in sig_shift_32 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:110]
+#1   0x00007f49cd161a0c in case32 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:117]
+#2   0x00007f49cd161c11 in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:160]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd1619ac "add    eax, edx"
+=>BACKTRACE
+#0   0x00007f49cd1619ac in sig_add_32 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:100]
+#1   0x00007f49cd161a2f in case32 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:120]
+#2   0x00007f49cd161c11 in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:160]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd1619ac "add    eax, edx"
+=>BACKTRACE
+#0   0x00007f49cd1619ac in sig_add_32 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:100]
+#1   0x00007f49cd161a47 in case32 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:121]
+#2   0x00007f49cd161c11 in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:160]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd1619bd "sub    eax, dword ptr [rbp-0x08]"
+=>BACKTRACE
+#0   0x00007f49cd1619bd in sig_sub_32 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:105]
+#1   0x00007f49cd161a59 in case32 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:122]
+#2   0x00007f49cd161c11 in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:160]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd161ae8 "shl    rax, cl"
+=>BACKTRACE
+#0   0x00007f49cd161ae8 in sig_shift_64 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:138]
+#1   0x00007f49cd161b26 in case64 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:145]
+#2   0x00007f49cd161c2a in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:162]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd161ab5 "add    rax, rdx"
+=>BACKTRACE
+#0   0x00007f49cd161ab5 in sig_add_64 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:128]
+#1   0x00007f49cd161b54 in case64 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:148]
+#2   0x00007f49cd161c2a in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:162]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd161ab5 "add    rax, rdx"
+=>BACKTRACE
+#0   0x00007f49cd161ab5 in sig_add_64 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:128]
+#1   0x00007f49cd161b74 in case64 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:149]
+#2   0x00007f49cd161c2a in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:162]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
+INTEGER OVERFLOW
+0x00007f49cd161aca "sub    rax, qword ptr [rbp-0x10]"
+=>BACKTRACE
+#0   0x00007f49cd161aca in sig_sub_64 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:133]
+#1   0x00007f49cd161b8b in case64 at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:150]
+#2   0x00007f49cd161c2a in main at [/afs/unity.ncsu.edu/users/m/mislam22/Compiler/Final_Project/csc_412_512_final_project/test_apps/src/test1.c:162]
+#3   0x00007f47807e5bf5 in __libc_start_main at [../csu/libc-start.c:310]
+#4   0x00007f49cd1615e4 in _start at [:0]
+#5   0xffffffffffffffff in THREAD[0]_ROOT_CTXT at [<NULL>:0]
+#6   0x0000000000000000 in PROCESS[19177]_ROOT_CTXT at [<NULL>:0]
+
+
